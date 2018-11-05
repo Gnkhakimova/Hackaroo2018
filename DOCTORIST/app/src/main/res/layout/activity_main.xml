@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fbf1f9"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif"
+
+            android:textAlignment="center"
+            android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+            android:textColor="#767170"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+
+        <Button
+            android:id="@+id/checkStatus"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Check Status"
+            android:background="#f2c6ba"
+            android:textColor="#fff"
+            android:onClick="getStatus"
+            android:layout_margin="10dp"
+            android:textSize="17dp"
+            android:fontFamily="sans-serif"
+             />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textColor="#767170"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            />
+
+        <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+
+            android:textColor="#767170"
+            android:textSize="20sp"
+            android:text="Speciality" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+        <Button
+            android:id="@+id/physician"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Physician"
+            android:background="#f2c6ba"
+            android:textColor="#fff"
+            android:onClick="clickPhysician"
+            android:layout_margin="7dp"
+            android:textSize="17dp"
+            android:fontFamily="sans-serif"
+            android:drawableTop="@drawable/physician" />
+    <Button
+        android:id="@+id/dentist"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Dentist"
+        android:background="#f2c6ba"
+        android:textColor="#fff"
+        android:onClick="clickDentist"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif"
+        android:drawableTop="@drawable/dental" />
+    <Button
+        android:id="@+id/pediatrician"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:text="Pediatrician"
+        android:onClick="clickPediatrician"
+        android:background="#f2c6ba"
+        android:textColor="#fff"
+        android:layout_margin="7dp"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif"
+        android:drawableTop="@drawable/pediatrician" />
+</LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+
+            android:textAlignment="textStart"
+
+            android:textColor="#767170"
+            android:textSize="20sp"
+            android:text="Near You" />
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:scrollbars="vertical" />
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
