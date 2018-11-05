@@ -4,6 +4,7 @@
 ### Team of 3  
 [Source Code](https://github.com/Gnkhakimova/Hackaroo2018)  
 [Youtube Video](https://youtu.be/il3nEsPA26M)  
+[APK file](https://www.dropbox.com/s/h6yo1d9ysfgwhq5/app-debug.apk?dl=0)  
 
 ### Objectives  
 Nowadays time management is a big thing, people leave with schedule and we do not want to spend our time while waiting on something. Purpose of this application is to create Virtual Queue application for Walk-In Clinics, so users can get into the queue without staying in line. **Doctorist** is Android application which will help us avoid long queues. User logs into application using name and phone number. Application provides us name of clinics located near us and their phone number. Clinics can be filtered by specialists. Also user can check status of their waiting time and get into selected doctor's queue which will be recorded in database. Doctorist also send us messaged every 2 minutes with status update.   
